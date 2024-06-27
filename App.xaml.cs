@@ -2,7 +2,7 @@
 using System.Data;
 using System.Windows;
 
-namespace WpfMercadoDisplayer
+namespace ProjetoWPF
 {
     /// <summary>
     /// Interaction logic for App.xaml
