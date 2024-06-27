@@ -1,4 +1,6 @@
-﻿using System.Configuration;
+﻿using ProjetoWPF.API;
+using ProjetoWPF.Model;
+using System.Configuration;
 using System.Data;
 using System.Windows;
 
@@ -9,6 +11,7 @@ namespace ProjetoWPF
     /// </summary>
     public partial class App : Application
     {
+        
     }
 
 }

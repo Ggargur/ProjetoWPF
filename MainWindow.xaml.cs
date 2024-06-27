@@ -1,4 +1,6 @@
-﻿using System.Text;
+﻿using ProjetoWPF.API;
+using ProjetoWPF.Model;
+using System.Text;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Data;
@@ -19,6 +21,13 @@ namespace ProjetoWPF
         public MainWindow()
         {
             InitializeComponent();
+            TestAPI();
+        }
+
+        private async void TestAPI()
+        {
+            var resp = await APIHandler.GetRequest(new QueryParams("2024-03-03", "2024-04-05", "IPCA"));
+            Console.WriteLine(resp?.Value);
         }
 
         private void ListBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
