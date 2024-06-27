@@ -15,6 +15,6 @@ namespace ProjetoWPF.Model
 
     public override string ToString()
     {
-        return '';
+        return "/ExpectativaMercadoMensais?%24format=json&%24filter=Data ge '2024-03-05' and Data lt '2024-04-05' and Indicador eq 'IPCA'";
     }
 }
