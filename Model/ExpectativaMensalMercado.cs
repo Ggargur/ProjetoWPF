@@ -1,11 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace ProjetoWPF.Model
+﻿namespace ProjetoWPF.Model
 {
+    /// <summary>
+    /// Classe model para a expectativa recebida como JSON.
+    /// </summary>
     public class ExpectativaMensalMercado
     {
         private string _indicador;
@@ -43,6 +40,12 @@ namespace ProjetoWPF.Model
         public float Maximo { get => _maximo; set => _maximo = value; }
         public int NumeroRespondentes { get => _numeroRespondentes; set => _numeroRespondentes = value; }
         public int BaseCalculo { get => _baseCalculo; set => _baseCalculo = value; }
-        public string DataReferencia { get => _dataReferencia; set => _dataReferencia = value; }
+        public string DataReferencia
+        {
+            // Os dados recebidos da chamada do indicador de SELIC não possuem atributo de DataReferencia,
+            // portanto tomei a liberdade de usar os dados de data comum como data de referência.
+            get => _indicador == "Selic" ? DateTime.Parse(_data).ToString("MM/yyyy") : _dataReferencia;
+            set => _dataReferencia = value;
+        }
     }
 }

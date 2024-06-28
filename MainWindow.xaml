@@ -5,36 +5,54 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ProjetoWPF"
         xmlns:System="clr-namespace:System;assembly=System.Runtime" x:Class="ProjetoWPF.MainWindow"
+        xmlns:lvc="clr-namespace:LiveCharts.Wpf;assembly=LiveCharts.Wpf"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
         <WrapPanel Margin="0,-32,0,328" HorizontalAlignment="Center" VerticalAlignment="Center">
             <WrapPanel Margin="20,0,0,0">
                 <Label>Indicador:</Label>
-                <ListBox HorizontalAlignment="Center" Height="22" VerticalAlignment="Top" Width="75" SelectionChanged="ListBox_SelectionChanged">
-                    <ListBoxItem Content="IPCA"/>
-                    <ListBoxItem Content="IGP-M"/>
-                    <ListBoxItem Content="SELIC"/>
-                </ListBox>
+                <ComboBox SelectedValuePath="Content" SelectedIndex="0" Name="IndicatorSelector" HorizontalAlignment="Center" Height="22" VerticalAlignment="Top" Width="75" SelectionChanged="ListBox_SelectionChanged">
+                    <ComboBoxItem  Content="IPCA"/>
+                    <ComboBoxItem Content="IGP-M"/>
+                    <ComboBoxItem Content="Selic"/>
+                </ComboBox>
             </WrapPanel>
             <WrapPanel Margin="20,0,0,0">
                 <Label>Data Início:</Label>
-                <DatePicker></DatePicker>
+                <DatePicker Name="DatePickerInitial" SelectedDateChanged="DateSelected_Initial" SelectedDateFormat="Short"></DatePicker>
             </WrapPanel>
             <WrapPanel Margin="20,0,0,0">
                 <Label>Data Fim:</Label>
-                <DatePicker></DatePicker>
+                <DatePicker Name="DatePickerFinal" SelectedDateChanged="DateSelected_Final" SelectedDateFormat="Short"></DatePicker>
             </WrapPanel>
-            <Button Margin="20,0,20,0">Exportar como CSV</Button>
+            <Button Margin="20,0,20,0" Click="ExportCSV_Clicked">Exportar como CSV</Button>
         </WrapPanel>
         <Grid Margin="0,73,0,0">
             <TabControl>
                 <TabItem Header="Tabela">
-                    <DataGrid Name="indicatorDg">
-                        
+                    <DataGrid Name="IndicatorDataGrid" AutoGenerateColumns="False" ItemsSource="{Binding}">
+                        <DataGrid.Columns>
+                            <DataGridTextColumn Header="Indicador" Binding="{Binding Indicador}" MinWidth="0" IsReadOnly="True"></DataGridTextColumn>
+                            <DataGridTextColumn Header="Data" Binding="{Binding Data}" MinWidth="0" IsReadOnly="True"></DataGridTextColumn>
+                            <DataGridTextColumn Header="Data Referência" Binding="{Binding DataReferencia}" MinWidth="0" IsReadOnly="True"></DataGridTextColumn>
+                            <DataGridTextColumn Header="Média" Binding="{Binding Media}" MinWidth="0" IsReadOnly="True"></DataGridTextColumn>
+                            <DataGridTextColumn Header="Mediana" Binding="{Binding Mediana}" MinWidth="0" IsReadOnly="True"></DataGridTextColumn>
+                            <DataGridTextColumn Header="Desvio Padrão" Binding="{Binding DesvioPadrao}" MinWidth="0" IsReadOnly="True"></DataGridTextColumn>
+                            <DataGridTextColumn Header="Mínimo" Binding="{Binding Minimo}" MinWidth="0" IsReadOnly="True"></DataGridTextColumn>
+                            <DataGridTextColumn Header="Máximo" Binding="{Binding Maximo}" MinWidth="0" IsReadOnly="True"></DataGridTextColumn>
+                            <DataGridTextColumn Header="N° Respondentes" Binding="{Binding NumeroRespondentes}" MinWidth="0" IsReadOnly="True"></DataGridTextColumn>
+                            <DataGridTextColumn Header="Base Cálculo" Binding="{Binding BaseCalculo}" MinWidth="0" IsReadOnly="True" Width="*"></DataGridTextColumn>
+                        </DataGrid.Columns>
                     </DataGrid>
                 </TabItem>
-                <TabItem Header="Gráfico"></TabItem>
+                <TabItem Header="Gráfico">
+                    <lvc:CartesianChart Name="IndicatorSeriesCharts">
+                        <lvc:CartesianChart.AxisX>
+                            <lvc:Axis Name="IndicatorXLabel" Labels="{Binding XLabels}"/>
+                        </lvc:CartesianChart.AxisX>
+                    </lvc:CartesianChart>
+                </TabItem>
             </TabControl>
         </Grid>
     </Grid>

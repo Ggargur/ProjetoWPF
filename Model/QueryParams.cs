@@ -1,16 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace ProjetoWPF.Model
+﻿namespace ProjetoWPF.Model
 {
+    /// <summary>
+    /// Representa os parâmetros enviados para a query http.
+    /// </summary>
     public class QueryParams
     {
-        private string _startDate;
-        private string _endDate;
-        private string _indicator;
+        private readonly string _startDate;
+        private readonly string _endDate;
+        private readonly string _indicator;
 
         public QueryParams(string startData, string endData, string indicator)
         {
@@ -18,10 +15,14 @@ namespace ProjetoWPF.Model
             _endDate = endData;
             _indicator = indicator;
         }
-
+        // Sobrescrevendo a definição de ToString para ultiliza-lo como trascrição da classe quando for
+        // concatena-lo à URL da API. 
         public override string ToString()
         {
-            return $"/ExpectativaMercadoMensais?%24format=application/json;odata.metadata=none&%24filter=Data ge '{_startDate}' and Data lt '{_endDate}' and Indicador eq '{_indicator}'";
+            string value = $"filter=Data ge '{_startDate}' and Data lt '{_endDate}' and Indicador eq '{_indicator}'";
+            if (_indicator == "Selic")
+                return "ExpectativasMercadoSelic?%24format=application/json;odata.metadata=none&%24" + value;
+            return "ExpectativaMercadoMensais?%24format=application/json;odata.metadata=none&%24" + value;
         }
     }
 }
