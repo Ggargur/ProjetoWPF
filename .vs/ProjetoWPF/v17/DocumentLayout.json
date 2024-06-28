@@ -1,0 +1,192 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\amand\\source\\repos\\ProjetoWPF\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{521FC752-D155-4883-82D3-375AEFF21D35}|ProjetoWPF.csproj|c:\\users\\amand\\source\\repos\\projetowpf\\model\\queryparams.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{521FC752-D155-4883-82D3-375AEFF21D35}|ProjetoWPF.csproj|solutionrelative:model\\queryparams.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{521FC752-D155-4883-82D3-375AEFF21D35}|ProjetoWPF.csproj|c:\\users\\amand\\source\\repos\\projetowpf\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{521FC752-D155-4883-82D3-375AEFF21D35}|ProjetoWPF.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{521FC752-D155-4883-82D3-375AEFF21D35}|ProjetoWPF.csproj|c:\\users\\amand\\source\\repos\\projetowpf\\api\\datahandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{521FC752-D155-4883-82D3-375AEFF21D35}|ProjetoWPF.csproj|solutionrelative:api\\datahandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{521FC752-D155-4883-82D3-375AEFF21D35}|ProjetoWPF.csproj|c:\\users\\amand\\source\\repos\\projetowpf\\api\\apihandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{521FC752-D155-4883-82D3-375AEFF21D35}|ProjetoWPF.csproj|solutionrelative:api\\apihandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{521FC752-D155-4883-82D3-375AEFF21D35}|ProjetoWPF.csproj|c:\\users\\amand\\source\\repos\\projetowpf\\model\\expectativamensalmercado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{521FC752-D155-4883-82D3-375AEFF21D35}|ProjetoWPF.csproj|solutionrelative:model\\expectativamensalmercado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{521FC752-D155-4883-82D3-375AEFF21D35}|ProjetoWPF.csproj|c:\\users\\amand\\source\\repos\\projetowpf\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{521FC752-D155-4883-82D3-375AEFF21D35}|ProjetoWPF.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{521FC752-D155-4883-82D3-375AEFF21D35}|ProjetoWPF.csproj|c:\\users\\amand\\source\\repos\\projetowpf\\model\\odataresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{521FC752-D155-4883-82D3-375AEFF21D35}|ProjetoWPF.csproj|solutionrelative:model\\odataresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{521FC752-D155-4883-82D3-375AEFF21D35}|ProjetoWPF.csproj|c:\\users\\amand\\source\\repos\\projetowpf\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{521FC752-D155-4883-82D3-375AEFF21D35}|ProjetoWPF.csproj|solutionrelative:app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{521FC752-D155-4883-82D3-375AEFF21D35}|ProjetoWPF.csproj|c:\\users\\amand\\source\\repos\\projetowpf\\projetowpf.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{521FC752-D155-4883-82D3-375AEFF21D35}|ProjetoWPF.csproj|solutionrelative:projetowpf.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{521FC752-D155-4883-82D3-375AEFF21D35}|ProjetoWPF.csproj|c:\\users\\amand\\source\\repos\\projetowpf\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{521FC752-D155-4883-82D3-375AEFF21D35}|ProjetoWPF.csproj|solutionrelative:app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\amand\\source\\repos\\ProjetoWPF\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\amand\\source\\repos\\ProjetoWPF\\MainWindow.xaml.cs",
+              "RelativeToolTip": "MainWindow.xaml.cs",
+              "ViewState": "AQIAAI4AAAAAAAAAAAAYwJoAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-27T00:20:43.463Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ExpectativaMensalMercado.cs",
+              "DocumentMoniker": "C:\\Users\\amand\\source\\repos\\ProjetoWPF\\Model\\ExpectativaMensalMercado.cs",
+              "RelativeDocumentMoniker": "Model\\ExpectativaMensalMercado.cs",
+              "ToolTip": "C:\\Users\\amand\\source\\repos\\ProjetoWPF\\Model\\ExpectativaMensalMercado.cs",
+              "RelativeToolTip": "Model\\ExpectativaMensalMercado.cs",
+              "ViewState": "AQIAACYAAAAAAAAAAAA8wCwAAABqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-28T00:09:30.158Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "APIHandler.cs",
+              "DocumentMoniker": "C:\\Users\\amand\\source\\repos\\ProjetoWPF\\API\\APIHandler.cs",
+              "RelativeDocumentMoniker": "API\\APIHandler.cs",
+              "ToolTip": "C:\\Users\\amand\\source\\repos\\ProjetoWPF\\API\\APIHandler.cs",
+              "RelativeToolTip": "API\\APIHandler.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAQwBMAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-28T00:08:50.515Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DataHandler.cs",
+              "DocumentMoniker": "C:\\Users\\amand\\source\\repos\\ProjetoWPF\\API\\DataHandler.cs",
+              "RelativeDocumentMoniker": "API\\DataHandler.cs",
+              "ToolTip": "C:\\Users\\amand\\source\\repos\\ProjetoWPF\\API\\DataHandler.cs",
+              "RelativeToolTip": "API\\DataHandler.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-28T00:33:46.969Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\amand\\source\\repos\\ProjetoWPF\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "MainWindow.xaml",
+              "ToolTip": "C:\\Users\\amand\\source\\repos\\ProjetoWPF\\MainWindow.xaml",
+              "RelativeToolTip": "MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-06-28T03:17:48.163Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "QueryParams.cs",
+              "DocumentMoniker": "C:\\Users\\amand\\source\\repos\\ProjetoWPF\\Model\\QueryParams.cs",
+              "RelativeDocumentMoniker": "Model\\QueryParams.cs",
+              "ToolTip": "C:\\Users\\amand\\source\\repos\\ProjetoWPF\\Model\\QueryParams.cs",
+              "RelativeToolTip": "Model\\QueryParams.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAxwBIAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-27T19:31:47.639Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ODataResponse.cs",
+              "DocumentMoniker": "C:\\Users\\amand\\source\\repos\\ProjetoWPF\\Model\\ODataResponse.cs",
+              "RelativeDocumentMoniker": "Model\\ODataResponse.cs",
+              "ToolTip": "C:\\Users\\amand\\source\\repos\\ProjetoWPF\\Model\\ODataResponse.cs",
+              "RelativeToolTip": "Model\\ODataResponse.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-28T00:09:32.324Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\amand\\source\\repos\\ProjetoWPF\\App.xaml.cs",
+              "RelativeDocumentMoniker": "App.xaml.cs",
+              "ToolTip": "C:\\Users\\amand\\source\\repos\\ProjetoWPF\\App.xaml.cs",
+              "RelativeToolTip": "App.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-27T21:12:33.147Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ProjetoWPF",
+              "DocumentMoniker": "C:\\Users\\amand\\source\\repos\\ProjetoWPF\\ProjetoWPF.csproj",
+              "RelativeDocumentMoniker": "ProjetoWPF.csproj",
+              "ToolTip": "C:\\Users\\amand\\source\\repos\\ProjetoWPF\\ProjetoWPF.csproj",
+              "RelativeToolTip": "ProjetoWPF.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-06-27T18:28:33.711Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\amand\\source\\repos\\ProjetoWPF\\App.xaml",
+              "RelativeDocumentMoniker": "App.xaml",
+              "ToolTip": "C:\\Users\\amand\\source\\repos\\ProjetoWPF\\App.xaml",
+              "RelativeToolTip": "App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-06-27T18:05:59.737Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
